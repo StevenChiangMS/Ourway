@@ -1,0 +1,564 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #18191c;
+  color: #fff;
+  position: relative;
+}
+
+.headerNav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 50px;
+  position: fixed;
+  z-index: 2;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+}
+
+.navLeft a,.navLeft img {
+  margin: 0 15px;
+}
+
+.sawadika_500_250 {
+  width: 75px;
+}
+
+.sawadika_300_80 {
+  width: 60px;
+}
+
+.search {
+  width: 23px;
+  margin: 0 20px 0 0;
+}
+
+.navButton {
+  width: 60px;
+  height: 35px;
+  border: 1px #9b3849 solid;
+  border-radius: 50px;
+  color: #9b3849;
+  background: transparent;
+}
+
+.info {
+  background-color: #1d1e22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: contain;
+  padding: 0 50px;
+}
+
+.adOneDiv {
+  margin: 5px;
+}
+
+.one {
+  width: 100%;
+  border-radius: 20px 0 20px 0;
+}
+
+.addImg {
+  display: none;
+}
+
+.main {
+  width: 100%;
+  background-color: #18191c;
+  padding: 0 50px;
+  position: relative;
+}
+
+.topSlide {
+  position: relative;
+  overflow: hidden;
+}
+
+.top {
+  width: 100%;
+  position: relative;
+  
+}
+
+.topList {
+  position: relative;
+  width: 2000px;
+  max-width: 100%;
+  display: flex;
+  transition: all .3s;
+}
+
+.topDiv {
+  width: 320px;
+  height: 100%;
+  position: relative;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -60px;
+}
+
+.topDiv9 {
+  margin-right: 0;
+}
+
+.topImg {
+  position: relative;
+  width: 180px;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.num9 {
+  width: 290px;
+  position: relative;
+}
+
+.topThailand {
+  height: 270px;
+  position: relative;
+  margin-left: -50px;
+}
+
+.arrowLeft, .classArrowLeft {
+  width: 20px;
+  height: 350px;
+  opacity: 0.6;
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  transform: scaleX(-1);
+  cursor: pointer;
+}
+
+.arrowRight, .classArrowRight{
+  width: 20px;
+  height: 350px;
+  opacity: 0.6;
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  cursor: pointer;
+}
+
+.arrowRight, .arrowLeft {
+  top: 16px;
+
+}
+
+.classArrowLeft, .classArrowRight {
+  top: 80px;
+}
+
+.categoryHd {
+  position: relative;
+  overflow: hidden;
+}
+
+.categoryHd .categoryHdTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.categoryContainer, .thaiContainer, .actionContainer, .comedyContainer, .cartoonContainer, .fantasyContainer, .horrorContainer {
+  display: flex;
+  position: relative;
+  transition: all .3s;
+}
+
+.categoryContainer div, .thaiContainer div, .actionContainer div, .comedyContainer div, .cartoonContainer div, .fantasyContainer div, .horrorContainer div {
+  margin-right: 10px;
+}
+
+.categoryImg, .thaiImg, .actionImg, .comedyImg, .cartoonImg, .fantasyImg, .horrorImg {
+  width: 226px;
+  height: 326px;
+}
+
+.titleText {
+  width: 226px;
+  height: 326px;
+  display: none;
+  padding: 0px 50px;
+  color: #fff;
+  font-size: 0.1em;
+  position: absolute;
+  top: 0;
+}
+
+.categoryContainer div:hover .titleText, 
+.thaiContainer div:hover .titleText, 
+.actionContainer div:hover .titleText, 
+.comedyContainer div:hover .titleText, 
+.cartoonContainer div:hover .titleText, 
+.fantasyContainer div:hover .titleText, 
+.horrorContainer div:hover .titleText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.two, .three, .four {
+  text-align: center;
+  margin: 40px auto 0;
+}
+
+.footerImg {
+  width: 100%;
+}
+
+.footerOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 10px;
+}
+
+.footerOneText {
+  position: absolute;
+  text-align: center;
+  font-size: 2em;
+}
+
+.footerOneText div {
+  margin: 20px 0;
+}
+
+.footerOneButton {
+  font-size: 0.5em;
+  padding: 10px 20px;
+  margin-top: 45px;
+  border: 1px #D31D1D solid;
+  border-radius: 50px;
+  color: #D31D1D;
+  background: transparent;
+}
+
+.footerTwo {
+  margin: 40px 50px 10px 50px;
+}
+
+.footerTwoImg {
+  margin-bottom: 15px;
+}
+
+.footerText {
+  font-size: 10px;
+  color: #7e8083;
+}
+
+.footerTwoButtonDiv {
+  float: right;
+  margin: -70px 0 50px 0;
+}
+
+.footerTwoButton {
+  font-size: 8px;
+  padding: 10px 15px;
+  border: 1px rgba(255, 255, 255, 0.3) solid;
+  border-radius: 50px;
+  color: #7e8083;
+  background: transparent;
+}
+
+.footerTwoButton:not(:last-child) {
+  margin-right: 10px;
+}
+
+.menuContainer {
+  background-color: #000;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  display: none;
+}
+
+.menuIcon {
+  width: 40px;
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 950px) {
+  .headerNav {
+    justify-content: center;
+    position: relative;
+  }
+
+  .navLeft a, .sawadika_500_250, .navRight {
+    display: none;
+  }
+
+  .top {
+    overflow: hidden;
+    overflow-x: auto;
+  }
+
+  .top::-webkit-scrollbar {
+    display: none;
+  }
+
+  .topList::-webkit-scrollbar {
+    display: none;
+  }
+
+  .topDiv {
+    position: relative;
+    width: 140px;
+    left: 0;
+  }
+  
+  .topImg {
+    position: relative;
+    width: 90px;
+    left: -40px;
+  }
+
+  
+  .topThailand {
+    width: 90px;
+    height: 150px;
+    position: relative;
+    left: -15px;
+  }
+
+  .topTitle {
+    font-size: 14px;
+    margin: 30px 0 20px;
+  }
+
+  .num9 {
+    width: 140px;
+    left: -30px;
+  }
+
+  .topThailand9 {
+    left: -10px;
+  }
+
+  .categoryHd .categoryHdTitle {
+    margin-top: 20px;
+  }
+
+  .categoryHd, .categoryHdTitle {
+    margin: 10px 0 10px;
+  }
+
+  .categoryHdTitle h2 {
+    font-size: 14px;
+  }
+
+  .categoryHdTitle h6 {
+    font-size: 8px;
+  }
+
+  .info {
+    width: 90%;
+    padding: 0 5px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    /* overflow-x: auto; */
+  }
+
+  .info::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .adOneDiv {
+    /* margin: 10px; */
+    position: relative;
+  }
+  
+  .one {
+    position: relative;
+    left: 0;
+    width: 100vw;
+    /* border-radius: 20px 0 20px 0; */
+  }
+
+  .addImg {
+    display: block;
+  }
+
+  .info .adOneDiv {
+    animation: adOneSlider 15s linear infinite;
+  }
+
+  @keyframes adOneSlider {
+    0% {
+      left: 173%;
+    }
+
+    28% {
+      left: 173%;
+    }
+
+    31% {
+      left: 58%;
+    }
+
+    62% {
+      left: 58%;
+    }
+
+    65% {
+      left: -58%;
+    }
+
+    96% {
+      left: -58%;
+    }
+
+    100% {
+      left: -173%;
+    }
+  }
+
+  .arrowLeft, .arrowRight {
+    /* display: none; */
+    width: 12px;
+    top: 67px;
+    height: 150px;
+  }
+
+  .arrowLeft {
+    left: 0;
+  }
+
+  .arrowRight {
+    right: 0;
+  }
+
+  .classArrowLeft, .classArrowRight {
+    width: 10px;
+    top: 54px;
+    height: 130px;
+
+  }
+
+  .categoryContainer, .thaiContainer, .actionContainer, .comedyContainer, .cartoonContainer, .fantasyContainer, .horrorContainer {
+    width: 2000px;
+    height: 100%;
+    /* overflow-x: auto; */
+  }
+
+  /* .categoryContainer::-webkit-scrollbar, 
+  .thaiContainer::-webkit-scrollbar, 
+  .actionContainer::-webkit-scrollbar, 
+  .comedyContainer::-webkit-scrollbar, 
+  .cartoonContainer::-webkit-scrollbar, 
+  .fantasyContainer::-webkit-scrollbar, 
+  .horrorContainer::-webkit-scrollbar {
+    display: none;
+  } */
+
+  .categoryImg, .thaiImg, .actionImg, .comedyImg, .cartoonImg, .fantasyImg, .horrorImg {
+    width: 90px;
+    height: 130px;
+  }
+  
+  .titleText {
+    width: 90px;
+    height: 130px;
+    display: none;
+    color: #fff;
+    font-size: 8px;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+
+  }
+
+  .two, .three, .four {
+    width: 100%;
+    margin: 0;
+  }
+
+  .two a img, .three a img, .four a img {
+    width: 100%;
+  }
+
+  .footerImg {
+    height: 100%;
+  }
+
+  .footerOneButton {
+    font-size: 8px;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 30px;
+  }
+
+  .footerOneText {
+    margin-top: 1px;
+    font-size: 8px;
+  }
+
+  .footerTwo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 65px;
+    padding: 0 0 30px;
+  }
+
+  .footerTwoImg {
+    display: block;
+    width: 130px;
+    margin: 30px;
+    order: 1;
+  }
+
+  .footerTwoButtonDiv {
+    margin: 0 auto 30px;
+    padding: 10px;
+    width: 350px;
+    order: 2;
+  }
+
+  .footerTwoButton {
+    margin: 5px;
+  }
+
+
+  .footerText {
+    order: 3;
+    text-align: center;
+  }
+
+  .menuContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+  }
+
+  .menuIcon {
+    margin: 0 10px;
+  }
+
+  .menuText {
+    font-size: 8px;
+  }
+}
